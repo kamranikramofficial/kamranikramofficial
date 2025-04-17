@@ -71,9 +71,12 @@
 ## Connect With Me
 
 <p align="left">
-<a href="https://linkedin.com/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-<a href="https://twitter.com/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
-<a href="https://facebook.com/"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+  <a href="https://www.linkedin.com/in/kamranikramofficial/">
+    <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
+  </a>
+  <a href="mailto:kamranikram706@gmail.com">
+    <img src="https://img.icons8.com/fluent/48/000000/gmail.png"/>
+  </a>
 </p>
 
 <br/>
