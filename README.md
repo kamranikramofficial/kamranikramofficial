@@ -15,7 +15,12 @@
 
 <br/>
 
-![Snake animation](https://github.com/kamranikramofficial/kamranikramofficial/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake-dark.svg?palette=github-dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake.svg">
+</picture>
+
 
 <br/>
 
