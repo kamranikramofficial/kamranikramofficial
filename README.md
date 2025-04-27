@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/kamranikramofficial">
-    <img src="https://i.gifer.com/YQDs.gif" alt="Developer at Work" style="width: 300px; height: 280px;">
+    <img src="https://i.gifer.com/2un9.gif" alt="Developer at Work" style="width: 300px; height: 280px;">
   </a>
 </p>
 
