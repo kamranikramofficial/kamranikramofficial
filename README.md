@@ -1,30 +1,89 @@
-<h1 align="center">Hi 👋, I'm Kamran Ikram</h1>
-<h3 align="center">A passionate frontend developer from Pakistan</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kamranikramofficial&label=Profile%20views&color=0e75b6&style=flat" alt="kamranikramofficial" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kamranikramofficial" alt="kamranikramofficial" /></a> </p>
-
-- 🔭 I’m currently working on [Netflix Clone](https://netflix-html-css-clone-five.vercel.app/index.html)
-
-- 🌱 I’m currently learning **HTML/CSS,Bootstrap,JavaScript**
-
-- 💬 Ask me about **Anything About HTML/CSS,Bootstrap**
-
-- 📫 How to reach me **kamranikram706@gmail.com**
-
-- ⚡ Fun fact **Motivational Speaker**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/kamranikramofficial" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kamranikramofficial" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/kamranikramofficial">
+    <img src="https://i.gifer.com/YQDs.gif" alt="Developer at Work" style="width: 300px; height: 280px;">
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> </p>
+<h1 align="center">Hi, I'm Kamran Ikram</h1>
+<h3 align="center">Frontend Developer and Lifelong Learner from Pakistan</h3>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kamranikramofficial&show_icons=true&locale=en&layout=compact" alt="kamranikramofficial" /></p>
+<p align="center">
+  <a href="https://github.com/kamranikramofficial">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=Frontend+Web+Developer;JavaScript+Mastery+In+Progress;Self-Taught+Programmer;Building+Amazing+Projects;Future+React+Developer" />
+  </a>
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kamranikramofficial&show_icons=true&locale=en" alt="kamranikramofficial" /></p>
+<br/>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kamranikramofficial&" alt="kamranikramofficial" /></p>
+![Snake animation](https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake.svg)
+
+<br/>
+
+## About Me
+
+- 🎓 Currently studying Frontend Web Development
+- 🌱 Focused on mastering **JavaScript Advanced Concepts** and **Modern Web Technologies**
+- 👯 Open to collaborating on **open source projects** and **live web apps**
+- 📫 Contact me at: **kamranikram706@gmail.com**
+- ⚡ I believe in "Consistency over perfection."
+
+<br/>
+
+## 🚀 Technologies I Work With
+
+- HTML5, CSS3
+- JavaScript (ES6+), DOM Manipulation
+- Adobe Photoshop, Adobe Illustrator
+- Git & GitHub
+- Visual Studio Code
+- Arduino Basics
+
+<br/>
+
+<p align="center">
+    <a href="https://github.com/kamranikramofficial">
+        <img title="🔥 GitHub Streak Stats" alt="Kamran Ikram's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=kamranikramofficial&theme=tokyonight&hide_border=true"/>
+    </a>
+</p>
+
+<br/>
+
+## 📊 My GitHub Stats
+
+<br/>
+
+<a href="https://github.com/kamranikramofficial">
+  <img alt="Kamran Ikram's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=kamranikramofficial&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/kamranikramofficial">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranikramofficial&layout=compact&theme=tokyonight&hide_border=true" />
+</a>
+
+<br/>
+<br/>
+
+## Connect With Me
+
+<p align="left">
+<a href="https://linkedin.com/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href="https://twitter.com/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+<a href="https://facebook.com/"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+</p>
+
+<br/>
+
+## ❤ Views and Followers
+
+<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=kamranikramofficial">
+</a>
+<a href="https://github.com/kamranikramofficial?tab=followers">
+    <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Followers&style=social" alt="GitHub Badge">
+</a>
+
+<br/>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=00F2FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+GitHub+Profile!;Keep+learning+and+building!;See+you+around+👋" alt="Thanks for visiting" />
+</p>
