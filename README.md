@@ -46,26 +46,39 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <img src="https://img.icons8.com/color/48/javascript.png" alt="JavaScript" title="JavaScript"/>
   </a>
-  <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
-    <img src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" alt="Photoshop" title="Adobe Photoshop"/>
-  </a>
-  <a href="https://www.adobe.com/products/illustrator.html" target="_blank">
-    <img src="https://img.icons8.com/color/48/adobe-illustrator.png" alt="Illustrator" title="Adobe Illustrator"/>
-  </a>
+
+## 🛠 Tools & Platforms I Use
+
+
   <a href="https://git-scm.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/git.png" alt="Git" title="Git"/>
   </a>
  <a href="https://github.com/" target="_blank">
   <img src="https://img.icons8.com/fluency/48/github.png" alt="GitHub" title="GitHub" />
 </a>
-
   <a href="https://code.visualstudio.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="VS Code" title="Visual Studio Code"/>
+  </a>
+ <a href="https://vercel.com/" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" title="Vercel" width="48"/>
+</a>
+  <a href="https://www.netlify.com/" target="_blank">
+    <img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" alt="Netlify" title="Netlify" width="48" height="48"/>
+  </a>
+  <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+    <img src="https://img.icons8.com/color/48/adobe-photoshop--v1.png" alt="Photoshop" title="Adobe Photoshop"/>
+  </a>
+  <a href="https://www.adobe.com/products/illustrator.html" target="_blank">
+    <img src="https://img.icons8.com/color/48/adobe-illustrator.png" alt="Illustrator" title="Adobe Illustrator"/>
   </a>
   <a href="https://www.arduino.cc/" target="_blank">
     <img src="https://img.icons8.com/color/48/arduino.png" alt="Arduino" title="Arduino"/>
   </a>
 </p>
+
+
+
+
 
 <p align="center">
     <a href="https://github.com/kamranikramofficial">
