@@ -128,5 +128,8 @@
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=00F2FF&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+GitHub+Profile!;Keep+learning+and+building!;See+you+around+👋" alt="Thanks for visiting" />
+  <a href="https://github.com/kamranikramofficial" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=Thanks+for+Visiting+My+GitHub;Explore+My+Other+Accounts;Follow+for+More+Amazing+Projects;Stay+Tuned+for+Future+Updates" />
+  </a>
 </p>
+
