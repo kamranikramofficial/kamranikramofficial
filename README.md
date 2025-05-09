@@ -122,9 +122,10 @@
   </a>
   &nbsp;&nbsp;
   <!-- GitHub Followers Badge -->
-  <a href="https://github.com/kamranikramofficial?tab=followers" target="_blank">
-    <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Follow+Me&style=for-the-badge&color=blue" alt="GitHub Followers Badge">
-  </a>
+<a href="https://github.com/kamranikramofficial?tab=followers" target="_blank">
+  <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Follower+View&style=social" alt="GitHub Followers Badge">
+</a>
+
 </p>
 
 <!-- Add a fun message under the section -->
@@ -138,9 +139,10 @@
     <img src="https://img.shields.io/github/stars/kamranikramofficial?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars Badge">
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/kamranikramofficial" target="_blank">
-    <img src="https://img.shields.io/github/forks/kamranikramofficial?label=Forks&style=for-the-badge&color=purple" alt="GitHub Forks Badge">
-  </a>
+ <a href="https://github.com/kamranikramofficial?tab=follow" target="_blank">
+  <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Follow+Me&style=social" alt="GitHub Followers Badge">
+</a>
+
 </p>
 
 <!-- Display GitHub Contributions -->
