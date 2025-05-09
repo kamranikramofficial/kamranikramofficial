@@ -117,7 +117,7 @@
 
 <p align="center">
   <!-- GitHub Profile Views Counter -->
-  <a href="https://github.com/Meghna-DAS/github-profile-views-counter" target="_blank">
+<a href="https://github.com/kamranikramofficial" target="_blank">
     <img src="https://komarev.com/ghpvc/?username=kamranikramofficial&label=Profile+Views&color=brightgreen&style=flat-square" alt="Profile Views">
   </a>
   &nbsp;&nbsp;
