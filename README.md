@@ -92,15 +92,12 @@
 
 <br/>
 
-<a href="https://github.com/kamranikramofficial">
-  <img alt="Kamran Ikram's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=kamranikramofficial&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" />
-</a>
+<p align="center">
 
 <a href="https://github.com/kamranikramofficial">
   <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kamranikramofficial&layout=compact&theme=tokyonight&hide_border=true" />
 </a>
-
-<br/>
+</P>
 <br/>
 
 ## Connect With Me
@@ -116,16 +113,44 @@
 
 <br/>
 
-## ❤ Views and Followers
+<h2 align="center">❤ Views and Followers</h2>
 
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=kamranikramofficial">
-</a>
-<a href="https://github.com/kamranikramofficial?tab=followers">
-    <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Followers&style=social" alt="GitHub Badge">
-</a>
+<p align="center">
+  <!-- GitHub Profile Views Counter -->
+  <a href="https://github.com/Meghna-DAS/github-profile-views-counter" target="_blank">
+    <img src="https://komarev.com/ghpvc/?username=kamranikramofficial&label=Profile+Views&color=brightgreen&style=flat-square" alt="Profile Views">
+  </a>
+  &nbsp;&nbsp;
+  <!-- GitHub Followers Badge -->
+  <a href="https://github.com/kamranikramofficial?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/kamranikramofficial?label=Follow+Me&style=for-the-badge&color=blue" alt="GitHub Followers Badge">
+  </a>
+</p>
 
-<br/>
+<!-- Add a fun message under the section -->
+<p align="center" style="font-size: 18px; color: #5a5a5a; font-style: italic;">
+  ⭐ Thanks for being a part of my GitHub journey! Let's build amazing things together! ⭐
+</p>
+
+<!-- Extra Attractive Animated GitHub Stats -->
+<p align="center">
+  <a href="https://github.com/kamranikramofficial?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/github/stars/kamranikramofficial?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars Badge">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/kamranikramofficial" target="_blank">
+    <img src="https://img.shields.io/github/forks/kamranikramofficial?label=Forks&style=for-the-badge&color=purple" alt="GitHub Forks Badge">
+  </a>
+</p>
+
+<!-- Display GitHub Contributions -->
+<p align="center">
+
+<a href="https://github.com/kamranikramofficial">
+  <img alt="Kamran Ikram's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=kamranikramofficial&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" />
+</a>
+</p>
+
 
 <p align="center">
   <a href="https://github.com/kamranikramofficial" target="_blank">
