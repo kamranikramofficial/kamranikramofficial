@@ -14,7 +14,11 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # Step 1: Generate the snake SVG files
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Generate the snake SVG files
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
         with:
@@ -25,7 +29,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 2: Push the generated files to the output branch
+      # Step 3: Push the generated files to the output branch
       - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
@@ -35,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: Commit the changes to the main branch
+      # Step 4: Commit the changes to the main branch
       - name: Commit Snake Animation to Main Branch
         run: |
           git config --global user.name "github-actions"
