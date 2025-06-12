@@ -1,10 +1,10 @@
-name: Generate Snake Animation
+name: Generate Snake & Keep Contributions Active
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # 1st trigger at 00:00 UTC
-    - cron: "0 8 * * *"     # 2nd trigger at 08:00 UTC
-    - cron: "0 16 * * *"    # 3rd trigger at 16:00 UTC
+    - cron: "0 0 * * *"     # 1st run at midnight
+    - cron: "0 8 * * *"     # 2nd run at 08:00 UTC
+    - cron: "0 16 * * *"    # 3rd run at 16:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -35,13 +35,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit Snake (if changed)
+      - name: Commit Snake if Changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/*
           if git diff --cached --quiet; then
-            echo "No snake changes to commit."
+            echo "No changes to commit for snake."
           else
             git commit -m "Update snake animation - $(date -u)"
             git push origin main
@@ -52,10 +52,18 @@ jobs:
   dummy-commit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Make dummy commit
+      - name: Make Invisible Dummy Commit
         run: |
           git config --global user.name "github-actions"
-          git config --globa
+          git config --global user.email "github-actions@github.com"
+
+          mkdir -p .temp
+          echo "Keep alive - $(date -u)" > .temp/keepalive.txt
+          git add .temp/keepalive.txt
+          git commit -m "Invisible dummy commit - $(date -u)" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
