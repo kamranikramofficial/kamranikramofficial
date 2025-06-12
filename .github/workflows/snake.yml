@@ -2,23 +2,20 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Every 12 hours
-  workflow_dispatch:        # Manual trigger
-  push:
-    branches:
-      - main                # On push to main branch
+    - cron: "0 0 * * *"     # 1st trigger at 00:00 UTC
+    - cron: "0 8 * * *"     # 2nd trigger at 08:00 UTC
+    - cron: "0 16 * * *"    # 3rd trigger at 16:00 UTC
+  workflow_dispatch:
 
 jobs:
-  generate:
+  snake:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Generate the snake SVG files
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
         with:
@@ -29,7 +26,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 3: Push the generated files to the output branch
       - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
@@ -39,13 +35,27 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 4: Commit the changes to the main branch
-      - name: Commit Snake Animation to Main Branch
+      - name: Commit Snake (if changed)
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/*
-          git commit -m "Add/generated snake animation"
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "No snake changes to commit."
+          else
+            git commit -m "Update snake animation - $(date -u)"
+            git push origin main
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dummy-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Make dummy commit
+        run: |
+          git config --global user.name "github-actions"
+          git config --globa
