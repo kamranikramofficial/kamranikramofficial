@@ -2,19 +2,16 @@ name: Generate Snake & Keep Contributions Active
 
 on:
   schedule:
-    - cron: "0 0 * * *"     # 1st run at midnight
-    - cron: "0 8 * * *"     # 2nd run at 08:00 UTC
-    - cron: "0 16 * * *"    # 3rd run at 16:00 UTC
+    - cron: "0 0 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 jobs:
-  snake:
+  generate-snake:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
@@ -26,44 +23,27 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push Snake to Output Branch
+      - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
-          keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit Snake if Changed
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add dist/*
-          if git diff --cached --quiet; then
-            echo "No changes to commit for snake."
-          else
-            git commit -m "Update snake animation - $(date -u)"
-            git push origin main
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  dummy-commit:
+  keep-active:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Make Invisible Dummy Commit
+      - name: Make Dummy Commit
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
-          mkdir -p .temp
-          echo "Keep alive - $(date -u)" > .temp/keepalive.txt
-          git add .temp/keepalive.txt
-          git commit -m "Invisible dummy commit - $(date -u)" || echo "No changes to commit"
+          mkdir -p .keep
+          echo "Update: $(date -u)" > .keep/keepalive.txt
+          git add .keep/keepalive.txt
+          git commit -m "Keep active - $(date -u)" || echo "No changes"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
