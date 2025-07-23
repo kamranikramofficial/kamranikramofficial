@@ -1,4 +1,4 @@
-name: Generate Snake & Keep Contributions Active
+name: Generate Snake
 
 on:
   schedule:
@@ -28,6 +28,7 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update snake animation"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,14 +37,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Make Dummy Commit
+      - name: Keep Repository Active
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           mkdir -p .keep
           echo "Update: $(date -u)" > .keep/keepalive.txt
           git add .keep/keepalive.txt
-          git commit -m "Keep active - $(date -u)" || echo "No changes"
-          git push origin main
+          git commit -m "chore: keep active - $(date -u)" || echo "No changes to commit"
+          git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
