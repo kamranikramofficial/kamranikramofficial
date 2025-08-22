@@ -1,29 +1,44 @@
-name: Generate Snake Animation
-
+name: generate breakout svg
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight UTC
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # runs every day at midnight UTC
+  workflow_dispatch:       #  you can run it manually
 
 jobs:
-  generate-snake:
+  generate-svg:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Generate GitHub Contribution Snake
-        uses: Platane/snk@v3
+      - name: Generate Breakout SVG
+        uses: cyprieng/github-breakout@v1.0.0
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_username: ${{ github.repository_owner }}
 
-      - name: Push Snake to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Move generated SVGs
+        run: |
+          mkdir -p images
+          mv output/light.svg images/breakout-light.svg
+          mv output/dark.svg images/breakout-dark.svg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: daily breakout update $(date)" || echo "No changes to commit"
+          git push
+
+      - name: Force dummy commit (always green square 🌱)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          date > .last_run  # overwrite timestamp file
+          git add .last_run
+          git commit -m "chore: keep streak alive $(date)"
+          git push
