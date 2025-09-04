@@ -14,28 +14,38 @@ jobs:
 
     steps:
       - name: Checkout repository
+      # default token has contents:write from permissions above
         uses: actions/checkout@v4
 
-      - name: Generate breakout SVG
+      - name: Generate breakout SVGs
         uses: cyprieng/github-breakout@v1
         with:
           github_username: ${{ github.repository_owner }}
 
-      - name: Prepare SVG
+      - name: Stash generated SVGs temporarily
         run: |
-          mkdir -p images
-          # agar sirf ek SVG chahiye (light version for example)
-          mv output/light.svg images/breakout.svg
+          mkdir -p /tmp/breakout-images
+          ls -la output || true
+          cp output/light.svg /tmp/breakout-images/breakout-light.svg
+          cp output/dark.svg  /tmp/breakout-images/breakout-dark.svg
 
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push SVG
+      - name: Create orphan branch and add images
         run: |
+          # create/switch to orphan branch that only carries images
           git checkout --orphan github-breakout
-          git rm -rf .
-          git add images/breakout.svg
-          git commit -m "chore: update breakout SVG"
+          # remove everything staged/worktree
+          git rm -rf . || true
+          rm -rf * .[^.]* || true
+          mkdir -p images
+          cp /tmp/breakout-images/* images/
+          git add images
+          git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
+
+      - name: Force-push images branch
+        run: |
           git push --force origin github-breakout
