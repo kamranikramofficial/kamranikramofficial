@@ -1,5 +1,3 @@
-
-
 <!-- Intro Section -->
 <p align="center">
   <a href="https://github.com/kamranikramofficial">
@@ -17,22 +15,20 @@
   </a>
 </p>
 <!-- GitHub Snake Animation - TOP -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake.svg">
-    <img alt="Snake animation" src="https://github.com/kamranikramofficial/kamranikramofficial/blob/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cyprieng/cyprieng/refs/heads/github-breakout/images/breakout-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cyprieng/cyprieng/refs/heads/github-breakout/images/breakout-light.svg">
+  <img alt="Breakout Game" src="https://raw.githubusercontent.com/cyprieng/cyprieng/refs/heads/github-breakout/images/breakout-light.svg">
+</picture>
 
 ---
 
 ## 🔥 About Me
 
-- 💡 I specialize in **Java** and **React.js** development  
-- 🔥 Creating real-world dashboards, tools, and UI experiences  
-- 🔗 Building with **Firebase**, **REST APIs**, and **clean component logic**  
-- 💬 Let's connect for collaborations, feedback, or freelance builds  
+- 💡 I specialize in **Java** and **React.js** development
+- 🔥 Creating real-world dashboards, tools, and UI experiences
+- 🔗 Building with **Firebase**, **REST APIs**, and **clean component logic**
+- 💬 Let's connect for collaborations, feedback, or freelance builds
 - 📫 Contact me at: **kamranikramofficial@gmail.com**
 
 ---
