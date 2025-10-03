@@ -9,16 +9,10 @@
 <h3 align="center">React & Java Developer • UI-Focused • Pakistan Based</h3>
 
 <!-- Typing Effect -->
-<p align="center">
-  <a href="https://github.com/kamranikramofficial">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=React+%2B+Java+Developer;Clean+Code+%7C+Smart+UI+Builds;Firebase+%7C+APIs+%7C+JS+Power;Real+Projects+%7C+No+Tutorial+Hell;VS+Code+%7C+IntelliJ+%7C+GitHub+Ready" />
-  </a>
-</p>
-<!-- GitHub Snake Animation - TOP -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranikramofficial/kamranikramofficial/refs/heads/github-breakout/images/breakout-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranikramofficial/kamranikramofficial/refs/heads/github-breakout/images/breakout-light.svg">
-  <img alt="Breakout Game" src="https://raw.githubusercontent.com/kamranikramofficial/kamranikramofficial/refs/heads/github-breakout/images/breakout-light.svg">
+picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kamranikramofficial/kamranikramofficial/contribution-svg/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kamranikramofficial/kamranikramofficial/contribution-svg/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
 </picture>
 
 ---
