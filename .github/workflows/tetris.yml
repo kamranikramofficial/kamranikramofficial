@@ -1,0 +1,41 @@
+name: generate tetris animation
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Use lowlighter/metrics to render contributions like a Tetris game
+      - name: Generate Tetris Game Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: dist/github-tetris.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          config_timezone: Asia/Karachi
+          user: kamranikramofficial
+          
+      - name: Push tetris svg to branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: tetris-svg
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
