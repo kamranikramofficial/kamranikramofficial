@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">Hi, I'm Kamran Ikram</h1>
-<h3 align="center">React & Java Developer • UI-Focused • Pakistan Based</h3>
+<h3 align="center">Full-Stack Developer • React & Java • Node.js & Express • Pakistan Based</h3>
 
 <!-- Typing Effect -->
 <picture>
@@ -19,23 +19,33 @@
 
 ## 🔥 About Me
 
-- 💡 I specialize in **Java** and **React.js** development
-- 🔥 Creating real-world dashboards, tools, and UI experiences
-- 🔗 Building with **Firebase**, **REST APIs**, and **clean component logic**
-- 💬 Let's connect for collaborations, feedback, or freelance builds
-- 📫 Contact me at: **kamranikramofficial@gmail.com**
+- 💡 I specialize in **Java**, **React.js**, **Node.js**, and **Express**
+- 🧠 Experienced in both **frontend** and **backend** web development  
+- 🚀 Building full-stack web apps with **MongoDB**, **Mongoose**, and **Firebase**
+- 🧩 I love working with small, useful libraries to improve performance and UX
+- 💬 Let's connect for collaborations, feedback, or freelance projects
+- 📫 Reach me at: **kamranikramofficial@gmail.com**
 
 ---
 
 ## 🚀 Tech Stack
 
+### 🖥️ Frontend
 <p align="center">
   <img src="https://img.icons8.com/color/48/html-5.png" title="HTML5"/>
   <img src="https://img.icons8.com/color/48/css3.png" title="CSS3"/>
   <img src="https://img.icons8.com/color/48/javascript.png" title="JavaScript"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" width="48"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" width="48"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" title="Firebase" width="48"/>
+</p>
+
+### ⚙️ Backend
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="Node.js" width="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="Express.js" width="48" style="filter: invert(1);"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="MongoDB" width="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" width="48"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" title="NPM Libraries" width="48"/>
 </p>
 
 ---
@@ -85,6 +95,6 @@
 
 <p align="center">
   <a href="https://github.com/kamranikramofficial">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=Explore+More+Projects;Clean+Code+%7C+Real+Output;Thanks+for+Visiting;Stay+Creative+%7C+Keep+Shipping" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=Full-Stack+Development+Journey;Clean+Code+%7C+Real+Output;Thanks+for+Visiting;Stay+Creative+%7C+Keep+Shipping" />
   </a>
 </p>
